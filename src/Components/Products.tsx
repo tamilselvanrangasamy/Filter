@@ -27,6 +27,7 @@ function Products() {
                 <button onClick={Below}>below 1000</button>
                 <button onClick={Clear}>Clear</button>
                 <button onClick={() => Find('c')}>Apple</button>
+                <button onClick={() => Find('c')}>Reset</button>
             </div>
             <div className='grid'>
                 {
