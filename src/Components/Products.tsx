@@ -1,7 +1,6 @@
-import { useState ,useEffect} from 'react'
+import { useState } from 'react'
 import './style.css'
 import Product from './Products.json'
-const i:number=3434
 function Products() {
     const [items, setItems] = useState(Product)
     const Above = () => {
